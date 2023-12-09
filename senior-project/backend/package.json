@@ -4,16 +4,15 @@
   "description": "",
   "main": "index.js",
   "directories": {
-    "test": "jest"
+    "test": "test"
   },
   "scripts": {
-    "test": "jest",
-    "start": "node index.js"
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "bcrypt": "^5.1.0",
+    "bcrypt": "^5.1.1",
     "express": "^4.18.2",
     "express-session": "^1.17.3",
     "express-validator": "^7.0.1",
